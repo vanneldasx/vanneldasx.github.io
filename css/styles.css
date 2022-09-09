@@ -39,6 +39,7 @@ body {
 /* navbar */
 
 .navbar .navbar-container {
+	font-family: "Bigilla" !important;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -53,6 +54,7 @@ body {
 	-webkit-box-flex: 1;
 	-ms-flex-positive: 1;
 	flex-grow: 1;
+	font-family: inherit;
 }
 
 .navbar .navbar-container .site-type {
@@ -327,6 +329,7 @@ body {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	flex-wrap: wrap;
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
@@ -342,5 +345,18 @@ body {
 @media (max-width: 900px) {
 	.socials .socials-container a {
 		font-size: 30px;
+	}
+}
+
+@media(max-width:800px) {
+
+	.socials .socials-container {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 20px;
+
+	}
+	.site-type,.site-year {
+		display: none;
 	}
 }
