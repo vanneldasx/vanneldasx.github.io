@@ -135,6 +135,7 @@ body {
 
 .about {
 	width: 100%;
+	font-family: "Bigilla" !important;
 }
 
 .about::after {
@@ -151,6 +152,7 @@ body {
 .about .about-container p {
 	margin: 40px 0;
 	font-size: 36px;
+	font-family: "Bigilla" !important;
 }
 
 @media (max-width: 900px) {
