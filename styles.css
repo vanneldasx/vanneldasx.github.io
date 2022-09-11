@@ -1,4 +1,5 @@
 @import url('http://fonts.cdnfonts.com/css/bigilla');
+@import url('http://fonts.cdnfonts.com/css/neue-power');
 
 * {
 	margin: 0;
@@ -137,7 +138,7 @@ body {
 
 .about {
 	width: 100%;
-	font-family: "Bigilla" !important;
+	font-family: "neue-power" !important;
 }
 
 .about::after {
@@ -155,7 +156,7 @@ body {
 	margin: 40px 0;
 	font-size: 36px;
 	line-height: 3.5;
-	font-family: "Bigilla" !important;
+	font-family: "neue-power" !important;
 }
 
 @media (max-width: 900px) {
