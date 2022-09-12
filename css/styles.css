@@ -1,4 +1,10 @@
 @import url('http://fonts.cdnfonts.com/css/bigilla');
+@import url('http://fonts.cdnfonts.com/css/neue-power');
+
+@font-face {
+	font-family: 'Sk-Modernist';
+	src: url(./Sk-Modernist-Regular.otf);
+}
 
 * {
 	margin: 0;
@@ -137,7 +143,7 @@ body {
 
 .about {
 	width: 100%;
-	font-family: "Bigilla" !important;
+	font-family: "Sk-Modernist" !important;
 }
 
 .about::after {
@@ -154,7 +160,8 @@ body {
 .about .about-container p {
 	margin: 40px 0;
 	font-size: 36px;
-	font-family: "Bigilla" !important;
+	line-height: 1;
+	font-family: "Sk-Modernist" !important;
 }
 
 @media (max-width: 900px) {
@@ -356,7 +363,9 @@ body {
 		gap: 20px;
 
 	}
-	.site-type,.site-year {
+
+	.site-type,
+	.site-year {
 		display: none;
 	}
 }
