@@ -129,11 +129,13 @@ body {
 /* section-header */
 
 .section-header .section-header-container {
+	font-family: "Sk-Modernist" !important;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	padding: 12px 0;
 	font-size: 16px;
+	font-family: "Sk-Modernist" !important;
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
